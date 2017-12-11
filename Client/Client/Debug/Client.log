@@ -1,0 +1,86 @@
+﻿Client.obj : error LNK2019: unresolved external symbol "public: __thiscall Packet::Packet(int,__int64,int,int,bool)" (??0Packet@@QAE@H_JHH_N@Z) referenced in function "public: __thiscall Client::Client(void)" (??0Client@@QAE@XZ)
+Client.obj : error LNK2019: unresolved external symbol "public: void __thiscall Packet::setNumber(__int64)" (?setNumber@Packet@@QAEX_J@Z) referenced in function "void __cdecl sending(class UDPSocket &,class Packet &)" (?sending@@YAXAAVUDPSocket@@AAVPacket@@@Z)
+Client.obj : error LNK2019: unresolved external symbol "public: __int64 __thiscall Packet::getNumber(void)" (?getNumber@Packet@@QAE_JXZ) referenced in function "void __cdecl recivingReply(class UDPSocket &,class Packet &)" (?recivingReply@@YAXAAVUDPSocket@@AAVPacket@@@Z)
+Client.obj : error LNK2019: unresolved external symbol "public: void __thiscall Packet::setIsEnd(bool)" (?setIsEnd@Packet@@QAEX_N@Z) referenced in function "void __cdecl sending(class UDPSocket &,class Packet &)" (?sending@@YAXAAVUDPSocket@@AAVPacket@@@Z)
+A:\Politechnika Poznanska\SEMESTR III\Technologie sieciowe laboratoria\Lab7\Client\Debug\Client.exe : fatal error LNK1120: 4 unresolved externals
+
+Project Performance Summary:
+      234 ms  A:\Politechnika Poznanska\SEMESTR III\Technologie sieciowe laboratoria\Lab7\Client\Client\Client.vcxproj   1 calls
+                234 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  InitializeBuildStatus                      1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  FixupCLCompileOptions                      1 calls
+        0 ms  ModifyUnitTestPlatformVersion              1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  ComputeLinkSwitches                        1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  WarnCompileDuplicatedFilename              1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ClCompile                                  1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  Desktop_PlatformPrepareForBuild            1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+       16 ms  SetCABuildNativeEnvironmentVariables       1 calls
+       16 ms  DoLinkOutputFilesMatch                     1 calls
+      203 ms  Link                                       1 calls
